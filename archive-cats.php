@@ -21,7 +21,7 @@ get_header();
         <?php while (have_posts()) : the_post(); ?>
 
             <!-- Accordion of FAQ's -->
-            <?php get_template_part('loop-templates/content', 'katter'); ?>
+            <?php get_template_part('loop-templates/content', 'cats'); ?>
             <!-- End of Accordion -->
 
         <?php endwhile; ?>
