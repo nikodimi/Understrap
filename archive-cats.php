@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive pages
+ * The template for displaying cat archives
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
@@ -20,9 +20,8 @@ get_header();
         <!-- Yay, we have posts  -->
         <?php while (have_posts()) : the_post(); ?>
 
-            <!-- Accordion of FAQ's -->
+            <!-- Get content -->
             <?php get_template_part('loop-templates/content', 'cats'); ?>
-            <!-- End of Accordion -->
 
         <?php endwhile; ?>
     <?php else : ?>
