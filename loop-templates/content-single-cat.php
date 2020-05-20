@@ -15,7 +15,7 @@
             <p>Adopted: <?php the_field('cats_adopted'); ?></p>
             <?php if ( get_field('cats_adopted_at') ) : ?>
                 <p>Adopted at: <?php the_field('cats_adopted_at'); ?></p>
-                <?php endif; ?>
+            <?php endif; ?>
         </div>
         <div class="meta-description col-9">
             <h5>Description:</h5>
