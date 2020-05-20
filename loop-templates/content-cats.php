@@ -9,7 +9,7 @@
 </div> -->
 
 <div class="col-sm-4">
-  <div class="card">
+  <div class="card text-center">
     <div class="image">
       <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url($image['url']); ?>" /></a>
     </div>
