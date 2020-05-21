@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Succes story setup
+ * Success story setup
  *
  * @package understrap
  */

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Succes story setup
+ * faqs setup
  *
  * @package understrap
  */
@@ -18,13 +18,13 @@ $faqs = new WP_Query([
     ]);
 
     ?>
-
     
-<div class="wrapper" id="wrapper-usps">
+<div class="wrapper" id="wrapper-faqs">
 
-    <h2 class="faqs-title text-center">HUR GÖR JAG?</h2><br>
+    <h2 class="faqs-title text-center">How to adopt</h2><br>
 
         <div class="container">
+            
             <div class="row m-auto">
         
             <?php while($faqs->have_posts()) : $faqs->the_post(); ?>

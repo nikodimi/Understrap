@@ -1,11 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * The template for displaying the front-page
  *
  * @package understrap
  */
@@ -21,19 +16,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'global-templates/hero-front' ); ?>
 
-<?php get_template_part( 'global-templates/faqs' ); ?>
-
 <div class="wrapper" id="page-wrapper">
-
+	
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
-
+		
 		<div class="row">
-
+			
 			<main class="site-main" id="main">
-
-			<?php get_template_part( 'global-templates/latest-cats' ); ?>
-
-			<?php get_template_part( 'global-templates/success-stories' ); ?>
+				
+				<?php get_template_part( 'global-templates/faqs' ); ?>
+				
+				<?php get_template_part( 'global-templates/latest-cats' ); ?>
+				
+				<?php get_template_part( 'global-templates/success-stories' ); ?>
 
 			</main><!-- #main -->
 

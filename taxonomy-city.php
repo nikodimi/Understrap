@@ -1,8 +1,7 @@
 <?php
 /**
- * The template for displaying cat archives
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * The template for displaying city archive
+ 
  *
  * @package understrap
  */
@@ -30,4 +29,7 @@ get_header();
     <!-- end of posts  -->
     </div>
 </div>
+
+<?php
+get_footer();
 

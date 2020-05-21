@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Succes story setup
+ * Latest cats setup
  *
  * @package understrap
  */

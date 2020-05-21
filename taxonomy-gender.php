@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying cat archives
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * The template for displaying gender archives
  *
  * @package understrap
  */
@@ -31,3 +29,5 @@ get_header();
     </div>
 </div>
 
+<?php
+get_footer();
