@@ -9,6 +9,12 @@
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
 
+// query_posts( array(
+//     'post_type' => array( 'cats', ),
+//     'posts_per_page' => 9,
+//     'paged'=>$paged,
+// ) );
+
 get_header();
 
 ?>
@@ -18,7 +24,7 @@ get_header();
         <?php if (have_posts()) : ?>
             <!-- Yay, we have posts  -->
             <?php while (have_posts()) : the_post(); ?>
-
+            
                 <!-- Get content -->
                 <?php get_template_part('loop-templates/content', 'cats'); ?>
 
@@ -28,7 +34,9 @@ get_header();
         <?php endif; ?>
         <!-- end of posts  -->
     </div>
+    <?php understrap_pagination(); ?>
 </div>
+
 
 <?php
 get_footer();

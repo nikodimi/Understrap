@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_attr( $container ); ?> col-10" id="content" tabindex="-1">
 
 		<div class="row">
-
+				
 				<?php
 				if ( have_posts() ) {
 					// Start the Loop.
@@ -38,16 +38,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 				}
 				?>
 
-			</main><!-- #main -->
 
 			<!-- The pagination component -->
 			<?php understrap_pagination(); ?>
 
 		</div><!-- .row -->
 
-	</div><!-- #content -->
+	</div><!-- #container -->
 
-</div><!-- #index-wrapper -->
+</div><!-- wrapper -->
 
 <?php
 get_footer();

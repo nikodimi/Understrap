@@ -25,9 +25,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<footer class="site-footer" id="colophon">
 
-					<div class="site-info">
+					<div class="site-info text-center">
 
-						<?php understrap_site_info(); ?>
+						<small>copyright 2020 Nikola Dimitrijoski</small>
 
 					</div><!-- .site-info -->
 

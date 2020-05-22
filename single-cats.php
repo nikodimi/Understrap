@@ -14,11 +14,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="single-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?> col-10" id="content" tabindex="-1">
 
 		<div class="row">
-
-			<main class="site-main m-auto" id="main">
 
 				<?php
 				while ( have_posts() ) {
