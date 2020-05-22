@@ -1,7 +1,6 @@
 <?php
-
 /**
- * Success story setup
+ * Success stories setup
  *
  * @package understrap
  */
@@ -17,20 +16,28 @@ $succes_stories = new WP_Query([
     'meta_value'        =>      'Yes',
     'orderby'           =>      'modified',
     'order'             =>      'DSC',
-    ]);
+]);
 
-    ?>
+?>
 
-    
-<div class="wrapper" id="wrapper-usps">
+
+<div class="wrapper" id="wrapper-success">
 
     <div class="container">
+
         <div class="row">
+
+            <?php while ($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
+
+                <?php get_template_part('loop-templates/content', 'cats'); ?>
+
+            <?php endwhile; ?>
+
+            
+        </div><!-- .row -->
         
-        <?php while($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
+    </div><!-- #content -->
+    
+</div><!-- #page-wrapper -->
 
-        <?php get_template_part('loop-templates/content', 'cats'); ?>
-
-<?php endwhile; ?>
-<?php wp_reset_postdata();
-?>
+<?php wp_reset_postdata(); ?>

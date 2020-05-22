@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Latest cats setup
  *
@@ -17,20 +16,26 @@ $succes_stories = new WP_Query([
     'meta_value'        =>      'No',
     'orderby'           =>      'posted',
     'order'             =>      'DSC',
-    ]);
+]);
 
-    ?>
+?>
 
-    
-<div class="wrapper" id="wrapper-usps">
+<div class="wrapper" id="wrapper-latest">
 
     <div class="container">
-        <div class="row">
         
-        <?php while($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
+        <div class="row">
 
-        <?php get_template_part('loop-templates/content', 'cats'); ?>
+            <?php while ($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
 
-<?php endwhile; ?>
-<?php wp_reset_postdata();
-?>
+                <?php get_template_part('loop-templates/content', 'cats'); ?>
+
+            <?php endwhile; ?>
+
+        </div><!-- .row -->
+        
+    </div><!-- #content -->
+    
+</div><!-- #page-wrapper -->
+
+<?php wp_reset_postdata(); ?>
