@@ -1,18 +1,18 @@
 <?php $image = get_field('cats_image'); ?>
 
-
-<div class="col-12 col-md-6 col-lg-4 mb-4">
-  <div class="card text-center">
-    <div class="image">
-      <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url($image['url']); ?>" /></a>
+<div class="col-12 col-md-4 col-lg-4 mt-4 cat-card">
+  <div class="card">
+  <a href="<?php the_permalink(); ?>">
+    <img class="card-img-top" src="<?php echo esc_url($image['url']); ?>" /></a>
+    <div class="card-block">
+      <h4 class="card-title"><?php the_field('cats_name'); ?></h4>
+      <div class="card-text">
+        <p class="card-text"><?php echo get_the_term_list($post->ID, 'gender') ?></p>
+      </div>
     </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2><?php the_field('cats_name'); ?></h2>
-      </div>
-      <div class="content">
-        <p><?php echo get_the_term_list($post->ID, 'gender') ?></p>
-      </div>
+    <div class="card-footer">
+      <span class="float-right"><?php the_field('cats_adopted'); ?></span>
+      <span>Adopted:</span>
     </div>
   </div>
 </div>
