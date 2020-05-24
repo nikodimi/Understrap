@@ -11,10 +11,12 @@
 @import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
 @import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
 
-
-
 // Style files for theme Katthem
-@import "theme/front-page";
-@import "theme/front-hero";
-@import "theme/cat-cards";
-@import "theme/faqs";
+@import "theme/cat-cards";        // <-------- Style for cat-cards
+@import "theme/faqs";             // <-------- Style for faqs 
+@import "theme/footer";           // <-------- Style for the footer      
+@import "theme/front-hero";       // <-------- Style for the front-page hero  
+@import "theme/front-page";       // <-------- Style for the front-page
+@import "theme/home";             // <-------- Style for the blog-page
+@import "theme/single-card";      // <-------- Style for single cat-card
+@import "theme/site-infos";        // <-------- Style for site-infos

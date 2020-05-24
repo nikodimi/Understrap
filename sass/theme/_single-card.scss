@@ -1,0 +1,57 @@
+.single-card {
+    font-family: 'Droid serif', serif; 
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    -webkit-box-shadow:0px 4px 4px gray;
+    -moz-box-shadow:0px 4px 4px gray;
+    box-shadow:0px 4px 4px gray;
+
+    h5 {
+        font-style: italic;
+    }
+
+    a {
+        font-weight: 700;
+        line-height: 1.2857em;
+        margin: 0;
+        color: $primary;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgba(63, 26, 226, 0.87);
+    }
+
+    .single-img-top {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .single-card-text {
+        font-style: italic;
+    }
+
+    .single-card-title {
+        margin-bottom: 20px;
+        font-size: 1.28571429em;
+        font-weight: 400;
+        line-height: 1.2857em;
+    }
+
+    .card-footer {
+        font-size: 1em;
+        position: static;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        padding: .75em 1em;
+        color: rgba(0, 0, 0, .4);
+        border-top: 1px solid rgba(0, 0, 0, .05) !important;
+        background: #fff;
+    }
+    
+}

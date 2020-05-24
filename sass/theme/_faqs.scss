@@ -1,12 +1,15 @@
+
 .faqs-box{
+    font-family: 'Droid serif', serif; 
     background:rgb(255, 255, 255);
-    padding:60px 10px;
+    padding:30px 40px;
     margin:30px 0px;
+    width: 100%;
+    min-height: 280px;
     -webkit-box-shadow:0px 2px 2px gray;
     -moz-box-shadow:0px 2px 2px gray;
     box-shadow:0px 2px 2px gray;
     
-
     .text{
         margin:20px 0px;
     }

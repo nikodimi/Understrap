@@ -1,18 +1,8 @@
-// .cat-card {
-//     margin: 30px;
-// }
-
-
-// .card-img-top {
-//     width: 100%;
-//     height: 15vw;
-//     object-fit: cover;
-// }
-
-.cat-card {
+.cat-card { 
+        font-family: 'Droid serif', serif; 
+        font-weight: 400; 
+        margin-bottom: 40px;
     
-    margin-bottom: 40px;
-
     .card {
         font-size: 1em;
         overflow: hidden;
@@ -24,53 +14,71 @@
         box-shadow:0px 4px 4px gray;
     }
 
+    .card-img-top {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+
+        @include media-breakpoint-up(md) {
+            height:15vw;
+            object-fit: cover;
+            
+        }
+
+        @include media-breakpoint-up(lg) {
+            height:15vw;
+            object-fit: cover;
+            
+        }
+    }
+
     .card-block {
-        font-size: 1em;
+
         position: relative;
         margin: 0;
         padding: 1em;
         border: none;
         border-top: 1px solid rgba(34, 36, 38, .1);
         box-shadow: none;
-    }
+        font-weight: 700;
+        line-height: 1.2857em;
+        margin: 0;
+    
         h4 {
-            font-size: 1.28571429em;
             font-weight: 700;
             line-height: 1.2857em;
             margin: 0;
         }
 
-    .card-img-top {
-        display: block;
-        width: 100%;
-        height: 15vw;
-        object-fit: cover;
-    }
-
-    .card-title {
-        color: black;
-        font-size: 1.28571429em;
-        font-weight: 700;
-        line-height: 1.2857em;
-    
+        a {
+            color: $primary; 
+            font-style: italic;
+            font-weight: 700;
+            line-height: 1.2857em;
+            margin: 0;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: rgba(63, 26, 226, 0.87);
+        }
     }
 
     .card-text {
         clear: both;
         margin-top: .5em;
-        color: rgba(99, 95, 95, 0.68);
-        
     }
 
     .card-footer {
+        background: rgb(22, 86, 184);
         font-size: 1em;
         position: static;
         top: 0;
         left: 0;
         max-width: 100%;
         padding: .75em 1em;
-        color: rgba(0, 0, 0, .4);
+        color: rgb(255, 255, 255);
         border-top: 1px solid rgba(0, 0, 0, .05) !important;
-        background: #fff;
+
     }
 }

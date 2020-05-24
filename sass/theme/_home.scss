@@ -1,0 +1,26 @@
+.blog-info {
+    margin-top: 20px;
+
+    h1 {
+        font-family: 'Droid serif', serif;
+        font-style: italic;
+    }
+    .post-date {
+        text-align: right;
+    }
+}
+.post-img {
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    @include media-breakpoint-up(md) {
+        text-align: center;
+        
+    }
+
+    @include media-breakpoint-up(lg) {
+        text-align: left;
+        margin-top: 90px;
+    }
+}
