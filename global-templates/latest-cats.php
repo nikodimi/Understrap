@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Latest cats setup
  *
@@ -20,22 +21,20 @@ $succes_stories = new WP_Query([
 
 ?>
 
-<div class="wrapper" id="wrapper-latest">
+<div class="container">
 
-    <div class="container">
-        
-        <div class="row">
+    <h2 class="Latest-title text-center"><?php _e('Latest cats: ', 'kks') ?></h2><br>
 
-            <?php while ($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
+    <div class="row">
 
-                <?php get_template_part('loop-templates/content', 'cats'); ?>
+        <?php while ($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
 
-            <?php endwhile; ?>
+            <?php get_template_part('loop-templates/content', 'cats'); ?>
 
-        </div><!-- .row -->
-        
-    </div><!-- #content -->
-    
-</div><!-- #page-wrapper -->
+        <?php endwhile; ?>
+
+    </div><!-- .row -->
+
+</div><!-- #content -->
 
 <?php wp_reset_postdata(); ?>

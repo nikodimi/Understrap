@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Success stories setup
  *
@@ -20,24 +21,20 @@ $succes_stories = new WP_Query([
 
 ?>
 
+<div class="container">
 
-<div class="wrapper" id="wrapper-success">
+    <h2 class="Success-title text-center"><?php _e('Success-stories: ', 'kks') ?></h2><br>
 
-    <div class="container">
+    <div class="row">
 
-        <div class="row">
+        <?php while ($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
 
-            <?php while ($succes_stories->have_posts()) : $succes_stories->the_post(); ?>
+            <?php get_template_part('loop-templates/content', 'cats'); ?>
 
-                <?php get_template_part('loop-templates/content', 'cats'); ?>
+        <?php endwhile; ?>
 
-            <?php endwhile; ?>
+    </div><!-- .row -->
 
-            
-        </div><!-- .row -->
-        
-    </div><!-- #content -->
-    
-</div><!-- #page-wrapper -->
+</div><!-- #content -->
 
 <?php wp_reset_postdata(); ?>

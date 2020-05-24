@@ -22,7 +22,7 @@ $faqs = new WP_Query([
 
     <div class="container">
 
-        <h2 class="faqs-title text-center">How to adopt</h2><br>
+        <h2 class="faqs-title text-center"><?php _e('How to adopt: ', 'kks') ?></h2><br>
 
         <div class="row m-auto">
 
