@@ -1,4 +1,4 @@
-<?php
+<?php 
 function cptui_register_my_cpts() {
 
 /**
@@ -60,7 +60,7 @@ $args = [
     "hierarchical" => false,
     "rewrite" => [ "slug" => "cats", "with_front" => true ],
     "query_var" => true,
-    "supports" => [ "title", "editor", "thumbnail" ],
+    "supports" => [ "title" ],
 ];
 
 register_post_type( "cats", $args );

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying posts
+ * The template for displaying the posts
  *
  *
  * @package understrap
@@ -18,7 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div class="<?php echo esc_attr( $container ); ?> col-10" id="content" tabindex="-1">
 
-		<div class="row">
+		<div class="row m-auto">
 				
 				<?php
 				if ( have_posts() ) {
@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						 * If you want to override this in a child theme, then include a file
 						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 						 */
-						get_template_part( 'loop-templates/content', 'newspost');
+						get_template_part( 'loop-templates/content', 'blogpost');
 					}
 				} else {
 					get_template_part( 'loop-templates/content', 'none' );

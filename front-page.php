@@ -17,15 +17,22 @@ $container = get_theme_mod('understrap_container_type');
 
 <?php get_template_part('global-templates/hero-front'); ?>
 
-<div class="wrapper" id="page-wrapper">
 
-	<?php get_template_part('global-templates/site-infos'); ?>
+<div class="wrapper" id="front-wrapper">
 
-	<?php get_template_part('global-templates/faqs'); ?>
+	<div class="<?php echo esc_attr($container); ?>" id="front-container" tabindex="-1">
 
-	<?php get_template_part('global-templates/latest-cats'); ?>
+		<?php get_template_part('global-templates/site-infos'); ?>
 
-	<?php get_template_part('global-templates/success-stories'); ?>
+		<?php get_template_part('global-templates/faqs'); ?>
+
+		<?php get_template_part('global-templates/latest-cats'); ?>
+
+		<?php get_template_part('global-templates/success-stories'); ?>
+
+		<?php the_content(); ?>
+
+	</div><!-- container -->
 
 </div><!-- #page-wrapper -->
 
