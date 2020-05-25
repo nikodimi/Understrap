@@ -27,12 +27,9 @@
 
     .single-img-top {
         display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .single-card-text {
-        font-style: italic;
+        max-height: 550px;
+        width: auto;
+        object-fit: cover;
     }
 
     .single-card-title {
@@ -40,6 +37,11 @@
         font-size: 1.28571429em;
         font-weight: 400;
         line-height: 1.2857em;
+    }
+
+    .single-card-text {
+        font-style: italic;
+        font-size: 16px;
     }
 
     .card-footer {
@@ -53,5 +55,4 @@
         border-top: 1px solid rgba(0, 0, 0, .05) !important;
         background: #fff;
     }
-    
 }
