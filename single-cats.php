@@ -14,7 +14,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="single-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?> col-10" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?> col-12 col-md-12 col-lg-10" id="content" tabindex="-1">
 
 		<div class="row">
 

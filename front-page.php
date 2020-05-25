@@ -18,9 +18,7 @@ $container = get_theme_mod('understrap_container_type');
 <?php get_template_part('global-templates/hero-front'); ?>
 
 
-<div class="wrapper" id="front-wrapper">
-
-	<div class="<?php echo esc_attr($container); ?>" id="front-container" tabindex="-1">
+<div class="wrapper" id="front-wrapper">	
 
 		<?php get_template_part('global-templates/site-infos'); ?>
 
@@ -31,8 +29,6 @@ $container = get_theme_mod('understrap_container_type');
 		<?php get_template_part('global-templates/success-stories'); ?>
 
 		<?php the_content(); ?>
-
-	</div><!-- container -->
 
 </div><!-- #page-wrapper -->
 

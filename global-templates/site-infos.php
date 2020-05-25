@@ -1,4 +1,5 @@
 <?php
+
 /**
  * site-infos setup
  *
@@ -18,22 +19,18 @@ $sp = new WP_Query([
 
 ?>
 
-<div class="wrapper" id="wrapper-site-infos">
+<div class="container">
 
-    <div class="container">
+    <div class="row m-auto">
 
-        <div class="row m-auto">
+        <?php while ($sp->have_posts()) : $sp->the_post(); ?>
 
-            <?php while ($sp->have_posts()) : $sp->the_post(); ?>
+            <?php get_template_part('loop-templates/content', 'site-infos'); ?>
 
-                <?php get_template_part('loop-templates/content', 'site-infos'); ?>
+        <?php endwhile; ?>
 
-            <?php endwhile; ?>
+    </div><!-- .row -->
 
-        </div><!-- .row -->
-
-    </div><!-- #content -->
-
-</div><!-- #page-wrapper -->
+</div><!-- #content -->
 
 <?php wp_reset_postdata(); ?>
