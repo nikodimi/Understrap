@@ -568,7 +568,7 @@ msgstr ""
 
 #: inc/acf/includes/admin/admin-field-group.php:765
 msgid "Close Window"
-msgstr ""
+msgstr "Stäng ruta"
 
 #: inc/acf/includes/admin/admin-field-group.php:806
 msgid "Please select the destination for this field"
@@ -608,7 +608,7 @@ msgstr ""
 #: inc/acf/includes/forms/form-front.php:38
 #: inc/acf/pro/fields/class-acf-field-gallery.php:353
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: inc/acf/includes/admin/admin-field-groups.php:528
 #: inc/acf/includes/admin/views/field-group-options.php:96
@@ -616,7 +616,7 @@ msgstr ""
 #: inc/acf/includes/admin/views/html-admin-page-upgrade-network.php:49
 #: inc/acf/pro/fields/class-acf-field-gallery.php:380
 msgid "Description"
-msgstr ""
+msgstr "Beskrivning"
 
 #: inc/acf/includes/admin/admin-field-groups.php:529
 #: woocommerce/myaccount/my-orders.php:18
@@ -948,7 +948,7 @@ msgstr ""
 #: inc/acf/includes/fields/class-acf-field-select.php:433
 #: inc/acf/pro/fields/class-acf-field-flexible-content.php:582
 msgid "Label"
-msgstr ""
+msgstr "Etikett"
 
 #: inc/acf/includes/admin/views/field-group-fields.php:6
 #: inc/acf/includes/fields/class-acf-field-taxonomy.php:936
@@ -962,7 +962,7 @@ msgstr ""
 
 #: inc/acf/includes/admin/views/field-group-fields.php:8
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: inc/acf/includes/admin/views/field-group-fields.php:14
 msgid ""
@@ -1080,7 +1080,7 @@ msgstr ""
 
 #: inc/acf/includes/admin/views/field-group-options.php:115
 msgid "Author"
-msgstr ""
+msgstr "Författare"
 
 #: inc/acf/includes/admin/views/field-group-options.php:116
 msgid "Format"
@@ -1093,11 +1093,11 @@ msgstr ""
 #: inc/acf/includes/admin/views/field-group-options.php:118
 #: inc/acf/includes/fields/class-acf-field-relationship.php:601
 msgid "Featured Image"
-msgstr ""
+msgstr "Utvald bild"
 
 #: inc/acf/includes/admin/views/field-group-options.php:119
 msgid "Categories"
-msgstr ""
+msgstr "Kategori"
 
 #: inc/acf/includes/admin/views/field-group-options.php:120
 msgid "Tags"
@@ -1215,7 +1215,7 @@ msgstr ""
 #: inc/acf/includes/admin/views/html-notice-upgrade.php:10
 #: inc/acf/pro/fields/class-acf-field-gallery.php:25
 msgid "Gallery"
-msgstr ""
+msgstr "Galleri"
 
 #: inc/acf/includes/admin/views/html-notice-upgrade.php:11
 #: inc/acf/pro/locations/class-acf-location-options-page.php:26
@@ -1723,7 +1723,7 @@ msgstr ""
 #: inc/acf/includes/fields/class-acf-field-radio.php:310
 #: inc/acf/includes/fields/class-acf-field-select.php:432
 msgid "Value"
-msgstr ""
+msgstr "värde"
 
 #: inc/acf/includes/fields/class-acf-field-button-group.php:199
 #: inc/acf/includes/fields/class-acf-field-checkbox.php:421
@@ -1776,11 +1776,11 @@ msgstr ""
 
 #: inc/acf/includes/fields/class-acf-field-color_picker.php:25
 msgid "Color Picker"
-msgstr ""
+msgstr "Färg val"
 
 #: inc/acf/includes/fields/class-acf-field-color_picker.php:68
 msgid "Clear"
-msgstr ""
+msgstr "Rensa"
 
 #: inc/acf/includes/fields/class-acf-field-color_picker.php:69
 msgid "Default"
@@ -1788,15 +1788,15 @@ msgstr ""
 
 #: inc/acf/includes/fields/class-acf-field-color_picker.php:70
 msgid "Select Color"
-msgstr ""
+msgstr "Välj färg"
 
 #: inc/acf/includes/fields/class-acf-field-color_picker.php:71
 msgid "Current Color"
-msgstr ""
+msgstr "Nuvarande färg"
 
 #: inc/acf/includes/fields/class-acf-field-date_picker.php:25
 msgid "Date Picker"
-msgstr ""
+msgstr "Datum val"
 
 #: inc/acf/includes/fields/class-acf-field-date_picker.php:59
 msgctxt "Date Picker JS closeText"
@@ -1846,7 +1846,7 @@ msgstr ""
 
 #: inc/acf/includes/fields/class-acf-field-date_picker.php:197
 msgid "Save Format"
-msgstr ""
+msgstr "Spara format"
 
 #: inc/acf/includes/fields/class-acf-field-date_picker.php:198
 msgid "The format used when saving a value"
@@ -2010,7 +2010,7 @@ msgstr ""
 
 #: inc/acf/includes/fields/class-acf-field-file.php:25
 msgid "File"
-msgstr ""
+msgstr "Fil"
 
 #: inc/acf/includes/fields/class-acf-field-file.php:141
 msgid "File name"
@@ -2374,7 +2374,7 @@ msgstr ""
 #: inc/acf/includes/fields/class-acf-field-post_object.php:405
 #: inc/acf/includes/fields/class-acf-field-relationship.php:576
 msgid "All taxonomies"
-msgstr ""
+msgstr "Alla taxonomier"
 
 #: inc/acf/includes/fields/class-acf-field-page_link.php:523
 msgid "Allow Archives URLs"
@@ -2391,7 +2391,7 @@ msgstr ""
 #: woocommerce/global/form-login.php:37 woocommerce/myaccount/form-login.php:42
 #: woocommerce/myaccount/form-login.php:94
 msgid "Password"
-msgstr ""
+msgstr "Lösenord"
 
 #: inc/acf/includes/fields/class-acf-field-post_object.php:25
 #: inc/acf/includes/fields/class-acf-field-post_object.php:436
@@ -2470,11 +2470,11 @@ msgstr ""
 
 #: inc/acf/includes/fields/class-acf-field-relationship.php:608
 msgid "Minimum posts"
-msgstr ""
+msgstr "Minimum poster"
 
 #: inc/acf/includes/fields/class-acf-field-relationship.php:617
 msgid "Maximum posts"
-msgstr ""
+msgstr "Maximum poster"
 
 #: inc/acf/includes/fields/class-acf-field-relationship.php:721
 #: inc/acf/pro/fields/class-acf-field-gallery.php:779
@@ -2901,19 +2901,19 @@ msgstr ""
 
 #: inc/acf/includes/locations/class-acf-location-nav-menu-item.php:27
 msgid "Menu Item"
-msgstr ""
+msgstr "Meny val"
 
 #: inc/acf/includes/locations/class-acf-location-nav-menu.php:27
 msgid "Menu"
-msgstr ""
+msgstr "Meny"
 
 #: inc/acf/includes/locations/class-acf-location-nav-menu.php:109
 msgid "Menu Locations"
-msgstr ""
+msgstr "Meny val"
 
 #: inc/acf/includes/locations/class-acf-location-nav-menu.php:119
 msgid "Menus"
-msgstr ""
+msgstr "Menyer"
 
 #: inc/acf/includes/locations/class-acf-location-page-parent.php:27
 msgid "Page Parent"
@@ -2966,7 +2966,7 @@ msgstr ""
 
 #: inc/acf/includes/locations/class-acf-location-post-taxonomy.php:27
 msgid "Post Taxonomy"
-msgstr ""
+msgstr "Post Taxonomi"
 
 #: inc/acf/includes/locations/class-acf-location-post-template.php:27
 msgid "Post Template"
@@ -3421,11 +3421,11 @@ msgstr ""
 
 #: inc/custom-post-types.php:9 inc/custom-post-types.php:44
 msgid "cats"
-msgstr ""
+msgstr "katter"
 
 #: inc/custom-post-types.php:10 inc/custom-post-types.php:34
 msgid "cat"
-msgstr ""
+msgstr "katt"
 
 #: inc/custom-post-types.php:11
 msgid "My cats"
@@ -3908,7 +3908,7 @@ msgstr ""
 #: inc/template-tags.php:42
 msgctxt "post author"
 msgid "Posted by"
-msgstr ""
+msgstr "Postad av"
 
 #: inc/template-tags.php:59 inc/template-tags.php:65
 #: node_modules/undescores-for-npm/inc/template-tags.php:50
@@ -3919,7 +3919,7 @@ msgstr ""
 #: inc/template-tags.php:62
 #, php-format
 msgid "Posted in %s"
-msgstr ""
+msgstr "Posted in %s"
 
 #: inc/template-tags.php:68
 #, php-format
@@ -4268,7 +4268,7 @@ msgstr ""
 #, php-format
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Postad den %s"
 
 #: node_modules/undescores-for-npm/inc/template-tags.php:33
 #, php-format
