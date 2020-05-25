@@ -1,4 +1,5 @@
 <?php
+
 /**
  * faqs setup
  *
@@ -18,24 +19,22 @@ $faqs = new WP_Query([
 
 ?>
 
-<div class="wrapper" id="wrapper-faqs">
+<div class="container">
 
-    <div class="container">
-
+    <?php if ($faqs->have_posts()) : ?>
         <h2 class="faqs-title text-center"><?php _e('How to adopt: ', 'kks') ?></h2><br>
+    <?php endif; ?>
 
-        <div class="row m-auto">
+    <div class="row m-auto">
 
-            <?php while ($faqs->have_posts()) : $faqs->the_post(); ?>
+        <?php while ($faqs->have_posts()) : $faqs->the_post(); ?>
 
-                <?php get_template_part('loop-templates/content', 'faqs'); ?>
+            <?php get_template_part('loop-templates/content', 'faqs'); ?>
 
-            <?php endwhile; ?>
+        <?php endwhile; ?>
 
-        </div><!-- .row -->
+    </div><!-- .row -->
 
-    </div><!-- #content -->
-
-</div><!-- #page-wrapper -->
+</div><!-- #content -->
 
 <?php wp_reset_postdata(); ?>

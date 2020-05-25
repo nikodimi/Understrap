@@ -23,7 +23,9 @@ $succes_stories = new WP_Query([
 
 <div class="container">
 
-    <h2 class="Success-title text-center"><?php _e('Success-stories: ', 'kks') ?></h2><br>
+    <?php if ($succes_stories->have_posts()) : ?>
+        <h2 class="Success-title text-center"><?php _e('Success-stories: ', 'kks') ?></h2><br>
+    <?php endif; ?>
 
     <div class="row">
 
@@ -35,6 +37,6 @@ $succes_stories = new WP_Query([
 
     </div><!-- .row -->
 
-</div><!-- #content -->
+</div><!-- Container -->
 
 <?php wp_reset_postdata(); ?>
