@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blank WordPress Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2020-05-24 23:21+0200\n"
+"POT-Creation-Date: 2020-05-25 21:32+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -34,7 +34,7 @@ msgid ""
 "below or a search?"
 msgstr ""
 "Det verkar som att det inte finns någonting här. Du kan testa en av länkarna "
-"nedan eller att göra en sökning."
+"nedan eller att göra en sökning?"
 
 #: 404.php:46 node_modules/undescores-for-npm/404.php:33
 msgid "Most Used Categories"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: author.php:38
 msgid "About:"
-msgstr "Om"
+msgstr "Om:"
 
 #: author.php:49 inc/acf/includes/admin/admin-field-groups.php:638
 msgid "Website"
@@ -99,17 +99,17 @@ msgstr ""
 
 #: footer.php:30
 msgid "copyright 2020: "
-msgstr "Alla rättigheter förbehållna"
+msgstr "Alla rättigheter förbehållna "
 
 #: global-templates/faqs.php:25
 msgid "How to adopt: "
 msgstr "Hur man adopterar"
 
-#: global-templates/latest-cats.php:26
+#: global-templates/latest-cats.php:27
 msgid "Latest cats: "
 msgstr "Senaste katterna"
 
-#: global-templates/success-stories.php:26
+#: global-templates/success-stories.php:27
 msgid "Success-stories: "
 msgstr "Senast adopterade"
 
@@ -3776,7 +3776,7 @@ msgstr ""
 msgid "genders"
 msgstr "kön"
 
-#: inc/custom-taxonomies.php:10
+#: inc/custom-taxonomies.php:10 inc/custom-taxonomies.php:23
 msgid "gender"
 msgstr "Kön"
 
@@ -3784,7 +3784,7 @@ msgstr "Kön"
 msgid "cities"
 msgstr "städer"
 
-#: inc/custom-taxonomies.php:38
+#: inc/custom-taxonomies.php:38 inc/custom-taxonomies.php:51
 msgid "city"
 msgstr "stad"
 
@@ -3993,6 +3993,10 @@ msgstr ""
 msgid "Full sized footer widget with dynamic grid"
 msgstr ""
 
+#: loop-templates/content-cats.php:28
+msgid "Adopted: "
+msgstr "Adopterad:"
+
 #: loop-templates/content-none.php:18
 #: node_modules/undescores-for-npm/template-parts/content-none.php:14
 msgid "Nothing Found"
@@ -4027,39 +4031,57 @@ msgid "Pages:"
 msgstr "Sidor:"
 
 #: loop-templates/content-single-cat.php:19
-msgid "Name: "
+#, fuzzy
+#| msgid "Name: "
+msgid "Name:  "
 msgstr "Namn "
 
 #: loop-templates/content-single-cat.php:20
-msgid "Color: "
+#, fuzzy
+#| msgid "Color: "
+msgid "Color:  "
 msgstr "Färg:"
 
 #: loop-templates/content-single-cat.php:21
-msgid "Born: "
+#, fuzzy
+#| msgid "Born: "
+msgid "Born:  "
 msgstr "Född "
 
 #: loop-templates/content-single-cat.php:22
-msgid "Gender: "
+#, fuzzy
+#| msgid "Gender: "
+msgid "Gender:  "
 msgstr "Kön:"
 
 #: loop-templates/content-single-cat.php:23
-msgid "City: "
+#, fuzzy
+#| msgid "City: "
+msgid "City:  "
 msgstr "Stad:"
 
 #: loop-templates/content-single-cat.php:24
-msgid "Weight: "
+#, fuzzy
+#| msgid "Weight: "
+msgid "Weight:  "
 msgstr "Vikt:"
 
 #: loop-templates/content-single-cat.php:25
-msgid "Adopted: "
+#, fuzzy
+#| msgid "Adopted: "
+msgid "Adopted:  "
 msgstr "Adopterad:"
 
 #: loop-templates/content-single-cat.php:27
-msgid "Cat adopted at: "
+#, fuzzy
+#| msgid "Cat adopted at: "
+msgid "Cat adopted at:  "
 msgstr "Katt adopterad den:"
 
 #: loop-templates/content-single-cat.php:31
-msgid "Description: "
+#, fuzzy
+#| msgid "Description: "
+msgid "Description:  "
 msgstr "Beskrivning "
 
 #: node_modules/gulp/node_modules/yargs-parser/index.js:301
