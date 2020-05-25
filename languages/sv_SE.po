@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blank WordPress Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2020-05-25 21:32+0200\n"
+"POT-Creation-Date: 2020-05-25 21:34+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -3778,7 +3778,7 @@ msgstr "kön"
 
 #: inc/custom-taxonomies.php:10 inc/custom-taxonomies.php:23
 msgid "gender"
-msgstr "Kön"
+msgstr "kön"
 
 #: inc/custom-taxonomies.php:37 inc/custom-taxonomies.php:42
 msgid "cities"
