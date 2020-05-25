@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
     </div>
     <div class="card-footer">
       <span class="float-right"><?php the_field('cats_adopted'); ?></span>
-      <span>Adopted:</span>
+      <span><?php _e('Adopted: ', 'kks') ?></span>
     </div>
   </div>
 </div>

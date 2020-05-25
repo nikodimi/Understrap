@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info text-center ">
 
-						<small>copyright 2020 Nikola Dimitrijoski</small>
+						<small><?php _e('copyright 2020: ', 'kks') ?> Nikola Dimitrijoski</small>
 
 					</div><!-- .site-info -->
 
