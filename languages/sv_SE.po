@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blank WordPress Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2020-05-25 21:34+0200\n"
+"POT-Creation-Date: 2020-05-26 12:16+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -99,19 +99,19 @@ msgstr ""
 
 #: footer.php:30
 msgid "copyright 2020: "
-msgstr "Alla rättigheter förbehållna "
+msgstr "Alla rättigheter förbehållna:"
 
 #: global-templates/faqs.php:25
 msgid "How to adopt: "
-msgstr "Hur man adopterar"
+msgstr "Hur man adopterar:"
 
 #: global-templates/latest-cats.php:27
 msgid "Latest cats: "
-msgstr "Senaste katterna"
+msgstr "Senaste katterna:"
 
 #: global-templates/success-stories.php:27
-msgid "Success-stories: "
-msgstr "Senast adopterade"
+msgid "Success-stories:"
+msgstr "Senast adopterade:"
 
 #: header.php:31 node_modules/undescores-for-npm/header.php:24
 msgid "Skip to content"
@@ -1723,7 +1723,7 @@ msgstr ""
 #: inc/acf/includes/fields/class-acf-field-radio.php:310
 #: inc/acf/includes/fields/class-acf-field-select.php:432
 msgid "Value"
-msgstr "värde"
+msgstr "Värde"
 
 #: inc/acf/includes/fields/class-acf-field-button-group.php:199
 #: inc/acf/includes/fields/class-acf-field-checkbox.php:421
@@ -3420,6 +3420,7 @@ msgid "Default Header Image"
 msgstr ""
 
 #: inc/custom-post-types.php:9 inc/custom-post-types.php:44
+#: inc/custom-post-types.php:61
 msgid "cats"
 msgstr "katter"
 
@@ -3538,7 +3539,7 @@ msgstr ""
 
 #: inc/custom-post-types.php:39
 msgid "cat updated."
-msgstr "katt updaterad"
+msgstr "katt updaterad."
 
 #: inc/custom-post-types.php:73 inc/custom-post-types.php:108
 msgid "faqs"
@@ -3574,7 +3575,7 @@ msgstr "Se faq"
 
 #: inc/custom-post-types.php:82
 msgid "View faqs"
-msgstr "Se faqs "
+msgstr "Se faqs:"
 
 #: inc/custom-post-types.php:83
 msgid "Search faqs"
@@ -3614,7 +3615,7 @@ msgstr "faq arkiv"
 
 #: inc/custom-post-types.php:92
 msgid "Insert into faq"
-msgstr "stoppa in i faq"
+msgstr "stoppa in i faq:"
 
 #: inc/custom-post-types.php:93
 msgid "Upload to this faq"
@@ -3654,7 +3655,7 @@ msgstr "faq schemalagd"
 
 #: inc/custom-post-types.php:103
 msgid "faq updated."
-msgstr "faq updaterad"
+msgstr "faq updaterad."
 
 #: inc/custom-post-types.php:137 inc/custom-post-types.php:172
 msgid "site infos"
@@ -3993,9 +3994,9 @@ msgstr ""
 msgid "Full sized footer widget with dynamic grid"
 msgstr ""
 
-#: loop-templates/content-cats.php:28
+#: loop-templates/content-cats.php:28 loop-templates/content-single-cat.php:25
 msgid "Adopted: "
-msgstr "Adopterad:"
+msgstr "Adopterad: "
 
 #: loop-templates/content-none.php:18
 #: node_modules/undescores-for-npm/template-parts/content-none.php:14
@@ -4031,58 +4032,36 @@ msgid "Pages:"
 msgstr "Sidor:"
 
 #: loop-templates/content-single-cat.php:19
-#, fuzzy
-#| msgid "Name: "
-msgid "Name:  "
-msgstr "Namn "
+msgid "Name: "
+msgstr "Namn: "
 
 #: loop-templates/content-single-cat.php:20
-#, fuzzy
-#| msgid "Color: "
-msgid "Color:  "
-msgstr "Färg:"
+msgid "Color: "
+msgstr "Färg: "
 
 #: loop-templates/content-single-cat.php:21
-#, fuzzy
-#| msgid "Born: "
-msgid "Born:  "
-msgstr "Född "
+msgid "Born: "
+msgstr "Född: "
 
 #: loop-templates/content-single-cat.php:22
-#, fuzzy
-#| msgid "Gender: "
-msgid "Gender:  "
-msgstr "Kön:"
+msgid "Gender: "
+msgstr "Kön: "
 
 #: loop-templates/content-single-cat.php:23
-#, fuzzy
-#| msgid "City: "
-msgid "City:  "
-msgstr "Stad:"
+msgid "City: "
+msgstr "Stad: "
 
 #: loop-templates/content-single-cat.php:24
-#, fuzzy
-#| msgid "Weight: "
-msgid "Weight:  "
-msgstr "Vikt:"
-
-#: loop-templates/content-single-cat.php:25
-#, fuzzy
-#| msgid "Adopted: "
-msgid "Adopted:  "
-msgstr "Adopterad:"
+msgid "Weight: "
+msgstr "Vikt: "
 
 #: loop-templates/content-single-cat.php:27
-#, fuzzy
-#| msgid "Cat adopted at: "
-msgid "Cat adopted at:  "
-msgstr "Katt adopterad den:"
+msgid "Adopted at: "
+msgstr "Adopterad den: "
 
 #: loop-templates/content-single-cat.php:31
-#, fuzzy
-#| msgid "Description: "
-msgid "Description:  "
-msgstr "Beskrivning "
+msgid "Description: "
+msgstr "Beskrivning: "
 
 #: node_modules/gulp/node_modules/yargs-parser/index.js:301
 #: node_modules/sass-graph/node_modules/yargs-parser/index.js:301
@@ -4638,3 +4617,17 @@ msgstr ""
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
+
+#~ msgid "Cat adopted at: "
+#~ msgstr "Katt adopterad den: "
+
+#~ msgid "Adopted:"
+#~ msgstr "Adopterad:"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrivning:"
+
+#, fuzzy
+#~| msgid "Adopted: "
+#~ msgid "Adopted:  "
+#~ msgstr "Adopterad:"

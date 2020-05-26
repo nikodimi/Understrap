@@ -24,7 +24,7 @@ $succes_stories = new WP_Query([
 <div class="container">
 
     <?php if ($succes_stories->have_posts()) : ?>
-        <h2 class="Success-title text-center"><?php _e('Success-stories: ', 'kks') ?></h2><br>
+        <h2 class="Success-title text-center"><?php _e('Success-stories:', 'kks') ?></h2><br>
     <?php endif; ?>
 
     <div class="row">

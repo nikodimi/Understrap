@@ -58,7 +58,7 @@ $args = [
     "capability_type" => "post",
     "map_meta_cap" => true,
     "hierarchical" => false,
-    "rewrite" => [ "slug" => "cats", "with_front" => true ],
+    "rewrite" => [ "slug" => __('cats', 'kks'), "with_front" => true ],
     "query_var" => true,
     "supports" => [ "title" ],
 ];
