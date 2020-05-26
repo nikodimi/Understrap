@@ -6,7 +6,7 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 ?>
 
 <?php $image = get_field('cats_image'); ?>

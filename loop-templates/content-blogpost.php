@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template for the posts
  *
@@ -11,9 +10,9 @@ defined('ABSPATH') || exit;
 ?>
 
 <?php if (has_post_thumbnail($post->ID)) : ?>
-<div class="img-container post-img col-12">
-    <?php the_post_thumbnail('medium'); ?>
-</div>
+    <div class="img-container post-img col-12">
+        <?php the_post_thumbnail('medium'); ?>
+    </div>
 <?php endif; ?>
 
 <div class="blog-info col-12 col-md-12 col-lg-10 m-auto">
