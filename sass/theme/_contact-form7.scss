@@ -15,7 +15,8 @@
 // keep a max width in case it is just the form and nothing else
 // we do not want a form spanning whole page
 .wpcf7 {
-  
+
+  padding: 15px;
   max-width: 800px;
   margin: 0 auto !important;
   font-family: 'Droid serif', serif; 
